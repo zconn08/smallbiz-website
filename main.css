@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+	background-color: #E6E6E6;	
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	background-color: #459DBF;
+}
+
+
+.wrappertocenter {
+	width: 85%;
+	height: 250px;
+	margin: auto;
+}
+
+#wrappertocenter2 {
+	width: 85%;
+	height: 50px;
+	margin: auto;
+}
+
+fieldset {
+	margin: 9px 0px;
+}
+
+#logo {
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url(images/logo.png);
+	border-radius: 8px;
+	margin: 4px 0px;
+}
+
+#HeaderTitle {
+	margin-left: 15px;
+	font-size: 18px;
+	font-family: tahoma;
+	font-weight: bold;
+	float: left;
+}
+
+#HeaderTitle:hover{
+	text-decoration: none;
+}
+
+form {
+	float: right;
+}
+
+.topsearchbar {
+	height: 25px;
+	width: 260px;
+}
+
+#explore {
+	margin-right: 10px;
+}
+
+#near {
+	margin-right: 10px;
+}
+
+#searchbutton {
+	height: 30px;
+	width: 30px;
+	margin-right: 40px;
+	background-image: url(images/magnifyingglass.png);
+	border-radius: 5px;
+	color:white;
+}
+
+.headerbutton {
+	width: 85px;
+	height: 30px;
+	margin-left: 10px;
+	background-color: #223459;
+	color:white;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: tahoma;
+	border-radius: 5px;
+}
+
+#topbackground {
+	width: 100%;
+	height: 250px;
+	background-image: url(Images/venice1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 250px;
+}
+
+#playbutton {
+	height: 70px;
+	width: 70px;
+	background-image: url(images/playbutton.png);
+	margin-top: 85px;
+	margin-left: 465px;
+	position: absolute;
+}
+
+#cleardiv {
+	clear: both;
+}
+
+.locationbutton {
+	width: 120px;
+	height: 35px;
+	background-color: #459DBF;
+	font-size: 12px;
+	float: right;
+	margin-left: 15px;
+	margin-top: 200px;
+	font-family: tahoma;
+	border-radius: 5px;
+}
+
+#amazonriverbutton {
+	margin-right: 25px;
+}
+
+#venicebeachbutton {
+	background-color: #223459;
+	color:white;
+	font-weight: bold;
+}
+
+#bottombackground {
+	background-color: #FBFFA8;
+	height: 250px;
+}
+
+.pitchphotos {
+	height: 125px;
+	width: 220px;
+	border-radius: 25%;
+	display: inline-block;
+	margin-left: 8%;
+}
+
+#firstpitchphoto {
+	background-image: url(images/hike.jpg);
+}
+
+#secondpitchphoto {
+	background-image: url(images/followers.png);
+}
+#thirdpitchphoto {
+	background-image: url(images/myflag3.png);
+}
+
+.descriptions {
+	width: 220px;
+	display: inline-block;
+	margin-left: 8%;
+	text-align: center;
+	margin-bottom: 4px;
+	font-family: tahoma;
+}
+
+.topdescriptions {
+	margin-top: 1%;
+	margin-bottom: 1%; 
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.topdescriptions:hover{
+	text-decoration: underline;
+}
+
+.bottomdescriptions {
+	margin-top: 1%;
+	font-size: 12px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	height: 40px;
+	background-color: #459DBF;
+	position: absolute;
+	bottom: 0px;
+	font-family: tahoma;
+}
+
+#leftfooterdiv {
+	float: left;
+}
+
+#rightfooterdiv {
+	float: right;
+}
+
+#copyright {
+	margin-right: 0px;
+	text-decoration: none;
+}
+
+li {
+	float: right;
+	margin-right:15px;
+	padding: 15px 0px;
+	font-size: 14px; 
+}
+
+#facebooklogo {
+	height: 30px;
+	width: 30px;
+	background-image: url(images/fblogo.gif);
+	margin: -8px 0px;
+	border-radius: 5px;
+}
+
+#twitterlogo {
+	height: 30px;
+	width: 30px;
+	background-image: url(images/twitterlogo.png);
+	margin: -8px 0px;
+	border-radius: 5px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
